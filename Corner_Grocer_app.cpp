@@ -12,7 +12,7 @@ private:
 
     // New method to read the input file line by line
     void readInputFile() {
-        ifstream inputFile("C:/Users/lefre/source/repos/CS210_Project_Three_Input_File.txt");
+        ifstream inputFile("CS210_Project_Three_Input_File.txt");
         string line;
         while (getline(inputFile, line)) { // Read file line by line
             istringstream lineStream(line); // Use istringstream to parse the line
